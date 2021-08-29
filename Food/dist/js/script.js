@@ -200,6 +200,13 @@ window.addEventListener('DOMContentLoaded', () => {
             });
         });
 
+    // axios.get('http://localhost:3000/menu')  //using axios library for GET request
+    //     .then(data=> {
+    //         data.data.forEach(({img, altimg, title, descr, price}) => {
+    //             new MenuCard(img, altimg, title, descr, price, '.menu .container').render();
+    //         });
+    //     });
+
     // Forms
 
     const forms = document.querySelectorAll('form');
